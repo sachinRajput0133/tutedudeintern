@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tutedudeintern/static/css/main.deabc795.css",
+    "main.js": "/tutedudeintern/static/js/main.801add63.js",
+    "index.html": "/tutedudeintern/index.html",
+    "static/media/Vectorarrow.svg": "/tutedudeintern/static/media/Vectorarrow.797c1e05076453634c3d.svg",
+    "main.deabc795.css.map": "/tutedudeintern/static/css/main.deabc795.css.map",
+    "main.801add63.js.map": "/tutedudeintern/static/js/main.801add63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deabc795.css",
+    "static/js/main.801add63.js"
+  ]
+}
