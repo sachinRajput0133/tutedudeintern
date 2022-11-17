@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tutedudeintern/static/css/main.deabc795.css",
-    "main.js": "/tutedudeintern/static/js/main.f29089cc.js",
+    "main.js": "/tutedudeintern/static/js/main.95b17189.js",
     "index.html": "/tutedudeintern/index.html",
     "static/media/Vectorarrow.svg": "/tutedudeintern/static/media/Vectorarrow.797c1e05076453634c3d.svg",
     "main.deabc795.css.map": "/tutedudeintern/static/css/main.deabc795.css.map",
-    "main.f29089cc.js.map": "/tutedudeintern/static/js/main.f29089cc.js.map"
+    "main.95b17189.js.map": "/tutedudeintern/static/js/main.95b17189.js.map"
   },
   "entrypoints": [
     "static/css/main.deabc795.css",
-    "static/js/main.f29089cc.js"
+    "static/js/main.95b17189.js"
   ]
 }
