@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./ReferEarnPage.css";
 import WorkCard from "./WorkCard";
-import FriendImg from "../images/InviteFriends.svg"
+import FriendImg from "../images/work2.svg"
 import InviteImg from "../images/InviteFriends.svg"
 import RefralImg from "../images/work3.svg"
 import GetImg from "../images/work4.svg"
@@ -60,7 +60,7 @@ const ReferEarnPage = () => {
 
         <div className="howitworks-card">
           <WorkCard
-            image={InviteImg}
+            image={InviteImg && InviteImg }
             heading={heading1}
             description={description1}
           />
@@ -81,7 +81,7 @@ const ReferEarnPage = () => {
             description={description4}
           />
           <WorkCard
-            image="../images/work5.svg"
+            image="/images/work5.svg"
             heading={heading5}
             description={description5}
           />
