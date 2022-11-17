@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tutedudeintern/static/css/main.f3fc1a99.css",
-    "main.js": "/tutedudeintern/static/js/main.a62b57a1.js",
+    "main.js": "/tutedudeintern/static/js/main.9d1b8cfa.js",
     "static/media/work4.svg": "/tutedudeintern/static/media/work4.7f8f08c0d688a22c3c39a4cf9d9e521f.svg",
     "static/media/InviteFriends.svg": "/tutedudeintern/static/media/InviteFriends.29d30b94d604a046f7fd16e1a4ec48ed.svg",
     "static/media/work3.svg": "/tutedudeintern/static/media/work3.59ad6e3bfdd4b4023ada0f99190c1c7e.svg",
@@ -10,10 +10,10 @@
     "static/media/work5.svg": "/tutedudeintern/static/media/work5.f2b70e8c26855a87748eff835c3390af.svg",
     "static/media/Vectorarrow.svg": "/tutedudeintern/static/media/Vectorarrow.797c1e05076453634c3d.svg",
     "main.f3fc1a99.css.map": "/tutedudeintern/static/css/main.f3fc1a99.css.map",
-    "main.a62b57a1.js.map": "/tutedudeintern/static/js/main.a62b57a1.js.map"
+    "main.9d1b8cfa.js.map": "/tutedudeintern/static/js/main.9d1b8cfa.js.map"
   },
   "entrypoints": [
     "static/css/main.f3fc1a99.css",
-    "static/js/main.a62b57a1.js"
+    "static/js/main.9d1b8cfa.js"
   ]
 }
