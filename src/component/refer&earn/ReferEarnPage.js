@@ -81,7 +81,7 @@ const ReferEarnPage = () => {
             description={description4}
           />
           <WorkCard
-            image={TransferImg}
+            image="../images/work5.svg"
             heading={heading5}
             description={description5}
           />
