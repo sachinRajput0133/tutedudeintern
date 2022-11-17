@@ -20,7 +20,7 @@ const Header = () => {
                 <div  className='navbar-box2-profilename-container'  >
                   <img    src="/images/vector.png" alt="" />
                   <h2 className='navbar-box2-profilename' >ProfileName</h2>
-                  <img src={ProfileImg} alt="Profile" />
+                  <img src={ProfileImg && ProfileImg } alt="Profile" />
 
                 </div>
               </div>
