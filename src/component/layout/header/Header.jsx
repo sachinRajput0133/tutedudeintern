@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Header.css"
 import profileImg from "../../images/ProfileImgd.svg"
+import VectorArrow from "../../images/Vectorarrow.png"
 const Header = () => {
   return (
     <header  className='header' >
@@ -19,7 +20,7 @@ const Header = () => {
                 <div  className='navbar-box2-profilename-container'  >
                   <img    src={profileImg} alt="" />
                   <h2 className='navbar-box2-profilename' >ProfileName</h2>
-                  <img src="" alt="" />
+                  <img src={VectorArrow} alt="Arrow Down" />
 
                 </div>
               </div>
