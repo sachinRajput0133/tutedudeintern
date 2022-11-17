@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/tutedudeintern/static/css/main.f3fc1a99.css",
-    "main.js": "/tutedudeintern/static/js/main.521b156a.js",
+    "main.js": "/tutedudeintern/static/js/main.7848c18b.js",
     "static/media/work4.svg": "/tutedudeintern/static/media/work4.7f8f08c0d688a22c3c39a4cf9d9e521f.svg",
     "static/media/InviteFriends.svg": "/tutedudeintern/static/media/InviteFriends.29d30b94d604a046f7fd16e1a4ec48ed.svg",
     "static/media/work3.svg": "/tutedudeintern/static/media/work3.59ad6e3bfdd4b4023ada0f99190c1c7e.svg",
     "static/media/work2.svg": "/tutedudeintern/static/media/work2.8a074c62d787816c404909a00d8f1340.svg",
     "index.html": "/tutedudeintern/index.html",
     "static/media/work5.svg": "/tutedudeintern/static/media/work5.f2b70e8c26855a87748eff835c3390af.svg",
+    "static/media/backArrow.svg": "/tutedudeintern/static/media/backArrow.f3052b7b0209e2a63385719da5c52283.svg",
     "static/media/ProfileImgd.svg": "/tutedudeintern/static/media/ProfileImgd.87422489157094c553a1d54a6d79f334.svg",
     "static/media/Vectorarrow.svg": "/tutedudeintern/static/media/Vectorarrow.797c1e05076453634c3d.svg",
     "main.f3fc1a99.css.map": "/tutedudeintern/static/css/main.f3fc1a99.css.map",
-    "main.521b156a.js.map": "/tutedudeintern/static/js/main.521b156a.js.map"
+    "main.7848c18b.js.map": "/tutedudeintern/static/js/main.7848c18b.js.map"
   },
   "entrypoints": [
     "static/css/main.f3fc1a99.css",
-    "static/js/main.521b156a.js"
+    "static/js/main.7848c18b.js"
   ]
 }
