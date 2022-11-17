@@ -2,6 +2,8 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./ScreenA.css";
 import SingleRefralCard from "./SingleRefralCard";
+import backArrow from "../images/backArrow.svg"
+
 const ScreenA = () => {
   const navigate=useNavigate()
   return (
@@ -15,7 +17,7 @@ const ScreenA = () => {
         </div>
         {/* box for mobile view  go back */}
         <div onClick={()=> navigate("/tutedudeintern/referearn")}   className="screena-container-box-goback"  >
-        <img src="/images/Arrow17@2x.png" alt="" />
+        <img src={backArrow} alt="" />
                  <p>go back</p>
         </div>
         {/* box2 */}
