@@ -27,7 +27,7 @@
   margin-left: 74px;
   margin-top: 6px;
   /* z-index: 10000; */
-  background: url(/public/images/image1.png);
+  background: url(/src/component/images/image1.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
