@@ -2,6 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./ReferEarnPage.css";
 import WorkCard from "./WorkCard";
+import FriendImg from "../images/InviteFriends.svg"
+import InviteImg from "../images/InviteFriends.svg"
+import RefralImg from "../images/work3.svg"
+import GetImg from "../images/work4.svg"
+import TransferImg from "../images/work5.svg"
 const ReferEarnPage = () => {
   const heading1 = "Invite your Friends";
   const description1 = "Share the link tutedude.com with your friends ";
@@ -22,7 +27,7 @@ const ReferEarnPage = () => {
       <div className="referearn-container-box1">
         <p className="referearn-container-box1-text">
           UI/UX {">"}
-          <Link to={"/referearn"}>Refer & Earn</Link>
+          <Link to={"/tutedudeintern/referearn"}>Refer & Earn</Link>
         </p>
       </div>
       <div className="referearn-container-dashboard">
@@ -55,28 +60,28 @@ const ReferEarnPage = () => {
 
         <div className="howitworks-card">
           <WorkCard
-            image="/images/InviteFriends.svg"
+            image={InviteImg}
             heading={heading1}
             description={description1}
           />
 
           <WorkCard
-            image="/images/work@2x.svg"
+            image={FriendImg}
             heading={heading2}
             description={description2}
           />
           <WorkCard
-            image="/images/work3.svg"
+            image={RefralImg}
             heading={heading3}
             description={description3}
           />
           <WorkCard
-            image="/images/work4.svg"
+            image={GetImg}
             heading={heading4}
             description={description4}
           />
           <WorkCard
-            image="/images/work5.svg"
+            image={TransferImg}
             heading={heading5}
             description={description5}
           />
