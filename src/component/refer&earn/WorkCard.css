@@ -1,0 +1,108 @@
+.singleWorkCard-container{
+   
+width: 380px;
+height: 72px;
+display: flex;
+margin-top: 30px;
+/* border: 1px solid red; */
+justify-content: center;
+align-items: center;
+/* gap: 26px; */
+/* border: 1px solid red; */
+
+}
+.workCard-ellipse{
+    /* background: url("/public/images/Ellipse132.png")  ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    left: 189px;
+   margin-right: 26px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.25);
+    
+}
+.workCard-ellipse>img{
+  
+width: 32px;
+min-height: 16px;
+max-height: 26px;
+/* left: 189px;
+top: 467px; */
+
+
+}
+.workCard-textbox{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 26px; */
+    /* border: 1px solid red; */
+}
+.workCard-textbox>h1{
+  
+width: 151.22px;
+height: 24px;
+/* left: 274px; */
+top: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.workCard-textbox>p{
+  
+width: 270.56px;
+height: 48px;
+/* left: 274px;
+top: 487px; */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #4D4D4D;
+}
+.referearn-container-footertext>h1{
+    position: absolute;
+width: 168px;
+height: 24px;
+left: 187px;
+top: 799px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #800080;
+}
+.referearn-container-footertext>p{
+    position: absolute;
+    width: 159px;
+    height: 24px;
+    left: 187px;
+    top: 843px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #800080;
+    
+
+}

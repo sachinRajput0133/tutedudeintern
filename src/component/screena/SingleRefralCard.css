@@ -1,0 +1,154 @@
+.SingleRefralCard-container{
+    position: relative;
+width: 358px;
+height: 228px;
+
+/* NEW GRADIENT 2 */
+
+background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+border-radius: 20px;
+
+
+
+flex: none;
+
+}
+.container-box1>h1{
+    position: absolute;
+width: 150px;
+height: 24px;
+margin-left: 20px;
+margin-top: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #FFFFFF;
+
+}
+.container-box1>p{
+    position: absolute;
+width: 83px;
+height: 21px;
+margin-left: 255px;
+margin-top: 23px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.container-box2>h1{
+    position: absolute;
+width: 180px;
+height: 21px;
+margin-left: 20px;
+top: 54px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.container-box2 > .courses-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* position: absolute; */
+    margin-left: 30px;
+   margin-top: 85px;
+    gap: 10px;
+}
+.course-singlecard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 9px;
+    
+    
+    
+    
+    height: 29px;
+    /* margin-left: 30px;
+    top: 85px; */
+    
+    border: 1.5px solid #EEAEAE;
+    border-radius: 20px;
+}
+.course-singlecard>h1{
+   
+height: 21px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.container-box2{
+    display: flex;
+    align-items: center;
+
+}
+.container-box3>h2{
+    position: absolute;
+width: 130px;
+height: 24px;
+margin-left: 20px;
+top: 182px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.container-box3>p{
+    position: absolute;
+width: 55px;
+height: 36px;
+margin-left: 160px;
+top: 176px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+color: #FFFFFF;
+}
+@media screen and (max-width: 500px) {
+   
+   
+
+   
+}
+

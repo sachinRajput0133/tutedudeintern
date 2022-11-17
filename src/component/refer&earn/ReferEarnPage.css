@@ -1,0 +1,335 @@
+
+
+.referearn-container-box1 {
+  position: absolute;
+  /* width: 1366px; */
+  width: 100vw;
+  max-width: 100%;
+  height: 76px;
+  left: 0px;
+  top: 73px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+}
+.referearn-container-box1-text {
+  position: absolute;
+  width: 266px;
+  height: 21px;
+  margin-left: 187px;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.referearn-container-dashboard {
+  position: absolute;
+  width: 486px;
+  height: 188px;
+  left: 187px;
+  top: 179px;
+  background: #ffffff;
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.dashbard-text-wapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+.dashbard-text-wapper > div > h1 {
+  width: 111px;
+  height: 21px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #800080;
+}
+
+.dashbard-text-wapper > div > p {
+  width: 116px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+.dashboard-withdraw {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 16px;
+  gap: 10px;
+
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  left: 153px;
+  top: 119px;
+
+  background: #800080;
+  border-radius: 20px;
+}
+.dashboard-withdraw > h2 {
+  width: 148px;
+  height: 24px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.referearn-container-refrelcode {
+  position: relative;
+  width: 358px;
+  height: 105px;
+  left: 766px;
+  top: 179px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.referearn-container-refrelcode > h1 {
+  position: absolute;
+  width: 250px;
+  height: 36px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #800080;
+}
+.referearn-container-refrelcode > div {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  position: relative;
+  width: 358px;
+  height: 60px;
+  left: 0px;
+  bottom: 0;
+  margin-top: 43px;
+  /* top: 224px; */
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+
+  border: 1.5px solid linear-gradient(270deg, #800080 0%, #ff864c 100%);
+
+  border-image-source: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+
+  border-radius: 10px;
+}
+.referearn-container-refrelcode > div::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 56px;
+  border-radius: 8px;
+  width: 354px;
+  top: 1.5px;
+  left: 1.5px;
+  right: 1.5px;
+  bottom: 1.5px;
+}
+.referearn-container-refrelcode > div > h2 {
+  position: absolute;
+  width: 230px;
+  height: 30px;
+  left: 64px;
+  top: 15px;
+  z-index: 100;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  letter-spacing: 1.5em;
+
+  color: #800080;
+}
+.referearn-container-howitworks {
+  position: absolute;
+  width: 764px;
+  height: 332px;
+  left: 187px;
+  top: 407px;
+}
+.referearn-container-howitworks > h1 {
+  /* position: absolute; */
+  width: 230px;
+  height: 36px;
+  /* left: 187px;
+    top: 407px; */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #800080;
+}
+.howitworks-card {
+  display: flex;
+  /* gap:48px; */
+  flex-wrap: wrap;
+}
+
+.referearn-container-footertext > h1 {
+  position: absolute;
+  width: 168px;
+  height: 24px;
+  /* left: 187px; */
+  /* top: 799px; */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #800080;
+}
+.referearn-container-footertext > p {
+  position: absolute;
+  width: 159px;
+  height: 24px;
+  left: 187px;
+  top: 843px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #800080;
+}
+
+@media screen and (max-width: 500px) {
+  .referearn-container{
+    height: 1300px;
+    width: 100vw;
+    max-width: 100%;
+   }
+   
+  .referearn-container-box1 {
+    position: absolute;
+    width: 100vw;
+    max-width: 100%;
+    height: 200px;
+    top: 0;
+
+    background: #ffffff;
+  }
+  .referearn-container-box1-text {
+    /* position: absolute; */
+    width: 138px;
+    height: 21px;
+    top: 158px;
+    margin-left: 34px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #000000;
+  }
+  .referearn-container-dashboard {
+    width: 358px;
+    height: 198px;
+    left: 35px;
+    top: 230px;
+
+    background: #ffffff;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+
+  .dashbard-text-wapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 30px;
+  }
+  .dashbard-text-wapper > div > h1 {
+    width: 111px;
+    height: 21px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .dashboard-withdraw {
+    left: 158px;
+    top: 133px;
+  }
+  .referearn-container-refrelcode {
+    left: 35px;
+    top: 458px;
+  }
+  .referearn-container-refrelcode > h1 {
+    width: 250px;
+    /* left: 35px; */
+  }
+  .referearn-container-refrelcode > div {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 358px;
+    height: 60px;
+
+    border-radius: 10px;
+  }
+  .referearn-container-howitworks {
+    position: relative;
+    width: 359.17px;
+    height: 496px;
+    left: 34px;
+    top: 500px;
+  }
+ 
+  .referearn-container-footertext > h1 {
+    position: absolute;
+    top: 1190px !important;
+    left: 37px !important;
+  }
+  .referearn-container-footertext > p {
+    top: 1240px !important;
+    left: 37px !important;
+  }
+}

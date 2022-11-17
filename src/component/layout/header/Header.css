@@ -1,0 +1,183 @@
+.header {
+  position: absolute;
+  /* width: 1366px; */
+  width: 100vw;
+  height: 73.03px;
+  left: 0px;
+  top: 0px;
+  /* z-index: 1000; */
+  /* border: 1px solid red; */
+  filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.05));
+}
+.navbar-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  height: 73.03px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+.navbar-box1-logo {
+  /* position: absolute; */
+  width: 160px;
+  height: 63px;
+  margin-left: 74px;
+  margin-top: 6px;
+  /* z-index: 10000; */
+  background: url(/public/images/image1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.navbar-box2 {
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  margin-right: 87px;
+}
+.navbar-box2-myassignment {
+  width: 140px;
+  height: 22px;
+  margin-right: 28px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.5%;
+  /* or 22px */
+
+  text-align: center;
+
+  color: rgba(128, 0, 128, 0.25);
+}
+.navbar-box2-chatwithmentor {
+  margin-right: 30px;
+  width: 156px;
+  height: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.5%;
+  /* or 22px */
+
+  text-align: center;
+
+  color: rgba(128, 0, 128, 0.25);
+}
+.navbar-box2-profilename-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar-box2-profilename {
+  width: 111px;
+  height: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.5%;
+  /* or 22px */
+
+  text-align: center;
+  margin: 0 6px 0 6px;
+  color: #800080;
+}
+
+.navbar-box2-profilename-container > img:first-child {
+  width: 20px;
+  height: 20px;
+}
+.navbar-box2-profilename-container > img:last-child {
+  width: 12px;
+  height: 7.41px;
+  background-image: url("/public//images/Vectorarrow.png");
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    min-width: 100vw;
+    height: 124px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0));
+    background: #ffffff;
+    /* mix-blend-mode: luminosity; */
+  }
+  .navbar-box1-logo {
+    width: 160px;
+    height: 52px;
+    
+    
+    margin-left: 3px;
+    margin-top: 62px;
+ 
+    background: url(/public/images/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: normal;
+  }
+  .navbar-box2-myassignment {
+    display: none;
+  }
+  .navbar-box2-chatwithmentor {
+    display: none;
+  }
+  .navbar-box2-profilename-container {
+    /* padding: 12px 25px;
+    gap: 10px;
+    width: 165px;
+    height: 48px; */
+    /* margin-left: 65px;
+    margin-top: 59px;
+    margin-right: 35px;
+    background: #800080;
+    border-radius: 10px; */
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 25px;
+gap: 10px;
+
+position: absolute;
+width: 165px;
+height: 48px;
+left: 228px;
+top: 59px;
+
+background: #ad10ad;
+border-radius: 10px;
+
+  }
+  .navbar-box2-profilename-container > img:first-child {
+    display: none;
+  }
+  .navbar-box2-profilename {
+    width: 99px;
+    height:  Hug (48px);
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+  }
+  .navbar-box2-profilename-container > img:last-child {
+    width: 12px;
+    height: 7.41px;
+    background-image: url("/public//images/Vectorarrow.svg")
+  }
+}
