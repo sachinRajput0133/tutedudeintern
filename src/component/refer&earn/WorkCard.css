@@ -42,7 +42,7 @@ top: 467px; */
 }
 .workCard-textbox>h1{
   
-width: 151.22px;
+width: 280px;
 height: 24px;
 /* left: 274px; */
 top: 25px;
@@ -60,7 +60,7 @@ color: #000000;
 }
 .workCard-textbox>p{
   
-width: 270.56px;
+width: 278px;
 height: 48px;
 /* left: 274px;
 top: 487px; */
@@ -70,39 +70,4 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 color: #4D4D4D;
-}
-.referearn-container-footertext>h1{
-    position: absolute;
-width: 168px;
-height: 24px;
-left: 187px;
-top: 799px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-
-color: #800080;
-}
-.referearn-container-footertext>p{
-    position: absolute;
-    width: 159px;
-    height: 24px;
-    left: 187px;
-    top: 843px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-    
-    
-    color: #800080;
-    
-
 }

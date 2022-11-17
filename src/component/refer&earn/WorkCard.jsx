@@ -1,6 +1,6 @@
 import React from 'react'
 import "./WorkCard.css"
-const WorkCard = ({image}) => {
+const WorkCard = ({image ,heading,description }) => {
   return (
  <>
  <div className="singleWorkCard-container">
@@ -9,8 +9,8 @@ const WorkCard = ({image}) => {
         <img src={image} alt="" />
     </div>
     <div  className='workCard-textbox' >
-        <h1>Invite your Friends</h1>
-        <p>Share the link tutedude.com with your friends</p>
+        <h1>{heading}</h1>
+     <p>{description}</p>
     </div>
 
  </div>

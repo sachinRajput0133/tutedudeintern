@@ -208,8 +208,8 @@
   position: absolute;
   width: 168px;
   height: 24px;
-  /* left: 187px; */
-  /* top: 799px; */
+  left: 187px;
+  top: 799px;
 
   font-family: "Poppins";
   font-style: normal;
