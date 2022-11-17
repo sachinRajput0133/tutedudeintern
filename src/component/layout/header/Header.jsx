@@ -1,11 +1,16 @@
 import React from 'react'
 import "./Header.css"
+
 const Header = () => {
   return (
     <header  className='header' >
          <div className='navbar-container'  >
              <div className='navbar-box1' >
-                  <div className='navbar-box1-logo' ></div>
+                  <div className='navbar-box1-logo' 
+                  >
+                    
+
+                  </div>
                       
              </div>
               <div className='navbar-box2'>
