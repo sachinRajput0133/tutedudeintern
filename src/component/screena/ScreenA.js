@@ -10,11 +10,11 @@ const ScreenA = () => {
         {/* box1 */}
         <div className="screena-container-box1 ">
           <p className="screena-container-box1-text">
-            UI/UX {">"} <Link to={"/refer&earn"} >Refer & Earn</Link>  {">"}Friends Referred{" "}
+            UI/UX {">"} <Link to={"/tutedudeintern/refer&earn"} >Refer & Earn</Link>  {">"}Friends Referred{" "}
           </p>
         </div>
         {/* box for mobile view  go back */}
-        <div onClick={()=> navigate("/refer&earn")}   className="screena-container-box-goback"  >
+        <div onClick={()=> navigate("/tutedudeintern/refer&earn")}   className="screena-container-box-goback"  >
         <img src="/images/Arrow17@2x.png" alt="" />
                  <p>go back</p>
         </div>

@@ -12,8 +12,8 @@ function App() {
 
       <Header/>
       <Routes>
-         <Route path='tutedudeintern/' element={ <ScreenA/> } />
-         <Route path='tutedudeintern/refer&earn' element={ <ReferEarnPage/> } />
+         <Route path='/tutedudeintern/' element={ <ScreenA/> } />
+         <Route path='/tutedudeintern/refer&earn' element={ <ReferEarnPage/> } />
       </Routes>
     
 
