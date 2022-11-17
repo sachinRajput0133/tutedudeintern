@@ -96,7 +96,7 @@
 .navbar-box2-profilename-container > img:last-child {
   width: 12px;
   height: 7.41px;
-  /* background-image: url(/src/component/images/Vectorarrow.png); */
+  background-image: url(/src/component/images/Vectorarrow.png);
 }
 
 @media screen and (max-width: 500px) {
